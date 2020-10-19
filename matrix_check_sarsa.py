@@ -149,7 +149,7 @@ def q_learn(epochs,alpha,gamma,epsilon,d_shape):
 	print("Next State",next_x_total[-1])
 	print(Q_record[-1,:,:])
 	print("Revisited::",revisited)
-	final_output(Q,revisited,not_allowed)
+	final_output(Q)
 	tp.action_plot(action_record)
 
 
